@@ -1,0 +1,19 @@
+.cards .row .col:not(:last-child) {
+    padding-right: 20px;
+    border: none;
+    }
+    .cards .card {
+    background: transparent;
+          box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+        -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+      border-radius: 40px;
+      padding: 6px 30px 6px;
+      border: none;
+    }
+    
+    .cards.container {
+      width: 100%;
+      max-width: none;
+      padding: 0 20px;
+      border: none;
+    }

@@ -1,0 +1,22 @@
+
+  <div class="container cards centrepoint">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="card" style="margin-right: 50px;">
+          <input #myInput onfocus="this.value=''" type="file" id="myfile" (change)="upload($event)" accept=".csv">
+        </div>
+
+         <div class="card">
+          <button class="btn btn-primary" (click) = "uploadNow()" [disabled]="!enableUpload" style="color: rgb(0, 0, 0);background-color: transparent;border: none;">Upload</button>
+        </div>
+       </div>
+
+    </div>
+  </div>
+
+
+
+
+  
